@@ -1,0 +1,30 @@
+*{
+Margin: 0px
+Padding: 0px
+}
+body{
+  overflow:hidden;
+}
+#dibujito
+{
+  background:url(cuadricula.png);
+  background-size: contain;
+}
+
+#contenedor
+{
+  position: relative;
+  height:499,5px;
+  width:1040px;
+}
+
+#contenedor button {
+  position: relative;
+  width: 150px;
+  cursor:pointer;
+  padding: 13px;
+  border-radius: 9%;
+  border-style:none;
+  background-color: green;
+  color: white;
+}
